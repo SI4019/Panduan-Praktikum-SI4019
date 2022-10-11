@@ -51,7 +51,7 @@ Sekarang kita bisa mencoba menjalankan atau menguuji proses delete data, jika ki
 
 Dan jika kita klik `OK`, maka proses `delelete` akan dijalankan dan akan menampilkan pesan sukses hapus data, kurang lebih seperti berikut ini :
 
-![gif](assets/img/Screen%20Recording%202021-05-30%20at%2011.58.21%20PM.gif)
+![gif](assets/img/2022-10-11-Screen.gif)
 
 Sampai disini pembahasan dan belajar kita tentang bagaimana cara membuat CRUD sederhana menggunakan Laravel 8 dan Bootstrap. 
 
