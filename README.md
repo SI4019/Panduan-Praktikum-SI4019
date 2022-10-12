@@ -8,3 +8,4 @@
 - [Composer](https://getcomposer.org/Composer-Setup.exe) ⬇
 - [IDE - Visual Studio Code](https://code.visualstudio.com/) ⬇
 - [Local Webserver - Laragon](https://github.com/leokhoa/laragon/releases/download/5.0.0/laragon-wamp.exe) ⬇
+- [windows.php.net](https://windows.php.net/downloads/releases/)
