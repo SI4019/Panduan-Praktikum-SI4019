@@ -14,6 +14,30 @@ Jika berhasil teman-teman akan mendapatkan 1 file baaru di dalam folder `app/Htt
 
 ![BlogController](assets/img/Screen%20Shot%202021-05-29%20at%202.21.26%20PM.png)
 
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Blog;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+
+class BlogController extends Controller
+{    
+    /**
+     * index
+     *
+     * @return void
+     */
+    public function index()
+    {
+        $blogs = Blog::latest()->paginate(10);
+        return view('blog.index', compact('blogs'));
+    }
+}
+```
+
 Di atas pertama kita import Model `Blog` terlebih dahulu, karena kita akan menggunakan model ini untuk menampilkan data, input data dan yang lain-nya.
 
 ```php
